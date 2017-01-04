@@ -19,6 +19,7 @@ Input is a sequence of commands. The command keywords BACK, FORWARD, VISIT, and 
 
 For each command other than QUIT, print the URL of the current page after the command is executed if the command is not ignored. Otherwise, print "Ignored". The output for each command should be printed on its own line. No output is produced for the QUIT command.
 
+
 **Sample Input**
 
 VISIT http://acm.ashland.edu/
@@ -48,7 +49,7 @@ FORWARD
 QUIT
 
 
-Sample Output
+**Sample Output**
 
 http://acm.ashland.edu/
 
