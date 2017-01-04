@@ -22,29 +22,54 @@ For each command other than QUIT, print the URL of the current page after the co
 **Sample Input**
 
 VISIT http://acm.ashland.edu/
+
 VISIT http://acm.baylor.edu/acmicpc/
+
 BACK
+
 BACK
-BACK
+
+BACK 
+
 FORWARD
+
 VISIT http://www.ibm.com/
+
 BACK
+
 BACK
+
 FORWARD
+
 FORWARD
+
 FORWARD
+
 QUIT
+
+
 Sample Output
 
 http://acm.ashland.edu/
+
 http://acm.baylor.edu/acmicpc/
+
 http://acm.ashland.edu/
+
 http://www.acm.org/
+
 Ignored
+
 http://acm.ashland.edu/
+
 http://www.ibm.com/
+
 http://acm.ashland.edu/
+
 http://www.acm.org/
+
 http://acm.ashland.edu/
+
 http://www.ibm.com/
+
 Ignored
